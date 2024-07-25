@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.body {
+  background-color: #FFFFFF; /* Warna background */
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+  background-color: #F6BC13;
+  width: 1248px;
+  height: 78px;
+  margin-left: 65px;
+  background-image: url('/img/kantin.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 120px;
+  border-radius: 0 0 15px 15px;
+  position: sticky; /* Mengubah dari fixed menjadi sticky */
+  top: 0; /* Tetap pada posisi atas saat di-scroll */
+  z-index: 1000; /* Pastikan header muncul di atas konten lain */
+  margin-top: -90px;
+}
+  
+.logo {
+    margin-left: -60px;
+    background-repeat: no-repeat; 
+}
+
+.icon{
+    font-size: 44px;
+    margin-left: 120px;
+    margin-right: 800px;
+    font-family: "Lalezar", system-ui;
+    color: #293859;
+    margin-top: 13px;
+}
+
+.Admin{
+  margin-top: 15px;
+  font-size: 40px;
+  color: #FFFFFF;
+  font-family: "Lalezar", system-ui;
+}
+
+/* Main content */
+.content {
+  width: 1080px;
+  height: 660px;
+  margin-left: 159px;
+  margin-right: 159px;
+  border-radius: 8px; 
+  border: 2px solid #DE5D01;
+  margin-bottom: 90px;
+}
+
+.description{
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-left: 159px; 
+}
+
+/* Pesan */
+.informasi{
+font-size: 20px;
+font-family: "Poppins", sans-serif;
+font-weight: bold;
+margin-left: 50px;
+text-decoration: underline;
+margin-top: 20px;
+}
+
+.cardPesan{
+  margin-bottom: 1000px;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 20px;
+  position: relative;
+  width: 1080px;
+  height: 290px;
+  margin-left: 10px;
+}
+
+.cardPesan label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style for inputs */
+.cardPesan input[type="text"] {
+  width: 600px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+
+.cardPesan input[type="text"]:hover,
+.cardPesan input[type="text"]:focus {
+  border-color: #333;
+}
+
+.textarea-container {
+  display: flex;
+  align-items: center;
+}
+
+.tulisan-pesan {
+  font-family: "Lalezar", system-ui;
+  margin-bottom: 40px;
+  color: #293859;
+  font-size: 20px;
+  flex: 0 0 200px; 
+  text-align: left; /* Aligned kanan */
+  padding-right: 10px; /* Spasi antara tulisan dan textarea */
+}
+
+textarea {
+  flex: 1; /* TextArea akan mengisi sisa ruang yang tersedia */
+}
+
+.textarea-container textarea {
+  width: 80px; 
+  height: 50px; 
+  margin-right: 90px;
+  margin-bottom: 20px;
+}
+
+input{
+  flex: 1;
+}
+
+.textarea-container input {
+  width: 80px; 
+  height: 50px; 
+  margin-right: 90px;
+  margin-bottom: 20px;
+}
+
+.tulisan-pesan1 {
+  font-family: "Lalezar", system-ui;
+  margin-bottom: 20px;
+  color: #293859;
+  font-size: 20px;
+  flex: 0 0 200px; 
+  text-align: left; /* Aligned kanan */
+  padding-right: 10px; /* Spasi antara tulisan dan textarea */
+}
+.textarea-container1 textarea {
+  width: 757px; 
+  height: 170px; 
+  margin-left: 200px;
+  margin-bottom: 20px;
+  margin-top: -50px;
+}
+
+.tulisan-produk{
+  font-family: "Lalezar", system-ui;
+  color: #293859;
+  font-size: 20px;
+  flex: 0 0 150px; /* Lebar tetap untuk tulisan */
+  text-align: right; /* Aligned kanan */
+  padding-right: 10px;
+}
+
+.upload{
+  display: flex;
+  align-items: center;
+  flex: 0 0 150px; /* Lebar tetap untuk tulisan */
+  text-align: right; /* Aligned kanan */
+  padding-right: 10px; 
+}
+
+.upload-container input {
+  width: 890px; 
+  height: 30px; 
+  margin-top: -10px;
+  margin-right: 80px;
+  margin-bottom: 40px;
+  border: 1px solid #333;
+}
+
+.button-container {
+  /* position: absolute;
+  bottom: -270px;
+  right: 80px;
+  z-index: 999; */
+  display: flex;
+  align-items: center;
+  justify-content:right;
+  margin-right: 90px;
+  margin-top: 110px;
+}
+
+.pesan-button {
+  background-color: #DE5D01;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px; /* Memberikan jarak antara tombol */
+}
+
+.batal-button{
+  background-color: white;
+  color: #DE5D01;
+  border: 1px solid #DE5D01;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px; /* Memberikan jarak antara tombol */
+}
+
+.batal-button:hover {
+  background-color: #FF7F50;
+}
+
+.pesan-button:hover {
+  background-color: #F6BC13;
+}
+
+.kembali-button {
+  position: fixed; /* Mengubah posisi menjadi tetap */
+  bottom: 60px; /* Jarak dari bawah */
+  left: 10px; /* Jarak dari kiri */
+  background-color: #DE5D01;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 999; /* Menentukan lapisan tampilan untuk memastikan tombol muncul di atas konten lain */
+}
+
+.kembali-button:hover {
+  background-color: #0056b3;
+}
+
+/* footer */
+.footer {
+  background-color: #F6BC13;
+  color: #FFFFFF; /* warna teks diubah menjadi putih */
+  padding: 20px; /* atur padding sesuai kebutuhan */
+  text-align: center; /* teks di tengah */
+  position: fixed; /* tetap pada posisi bawah layar */
+  left: 0;
+  bottom: 0;
+  width: 100%; /* lebar penuh */
+  height: 48px;
+}
+
+.left-icons{
+  size: 10px;
+}
+  
+/* Styles for right text */
+.right-text {
+  font-size: 14px; 
+  margin-left: 520px; 
+  margin-top: -5px; 
+}

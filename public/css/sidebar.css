@@ -1,0 +1,62 @@
+.sidebar {
+    margin-top: 89px;
+    /* box-shadow: 0px 0px 0px 1px; */
+    position: fixed;
+    top: 0;
+    left: 0; /* Ubah left menjadi 0 agar sidebar terlihat */
+    width: 229px;
+    height: 540px;
+    border: 2px solid #DE5D01;
+    transition: left 0.3s ease;
+    z-index: 1000; /* Pastikan sidebar muncul di atas konten lain */
+    background-color: white;
+  }
+    
+  .customer-icon img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left:  70px;
+  
+  }
+  
+  .customer-name {
+    color: #DE5D01;
+    margin-left:  80px;
+  }
+  
+  .menu-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: white;
+    color: #DE5D01;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .menu-button3 {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 60px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    color: #DE5D01;
+  }
+  .openSidebarButton {
+    position: fixed;
+    bottom: 540px; /* Posisikan tombol di bagian bawah layar */
+    left: 5px;
+    border: 2px solid #DE5D01;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 999; /* Pastikan tombol muncul di belakang sidebar */
+    background-size: 22px;
+  }

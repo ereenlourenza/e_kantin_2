@@ -1,0 +1,12 @@
+body {
+    background-color: red; /* Background warna */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 670px; /* Lebar container */
+    height: 982px; /* Tinggi container */
+    background-color: #d11212; /* Warna putih */
+    margin: 0 auto; /* Posisi di tengah */
+}

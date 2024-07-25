@@ -1,0 +1,43 @@
+.body {
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    background-color: #F6BC13;
+    width: 1248px;
+    height: 78px;
+    margin-left: -50px;
+    background-image: url('/img/kantin.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 120px;
+    border-radius: 0 0 15px 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    margin-top: -90px;
+}
+
+.logo {
+    margin-left: -60px;
+    background-repeat: no-repeat; 
+}
+
+.icon {
+    font-size: 44px;
+    margin-left: 120px;
+    margin-right: 800px;
+    font-family: "Lalezar", system-ui;
+    color: #293859;
+    margin-top: 13px;
+}
+
+.Admin {
+    margin-top: 15px;
+    font-size: 40px;
+    color: #FFFFFF;
+    font-family: "Lalezar", system-ui;
+}

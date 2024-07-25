@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.body {
+    background-color: #FFFFFF; /* Warna background */
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    background-color: #F6BC13;
+    width: 1248px;
+    height: 78px;
+    margin-left: 65px;
+    background-image: url('/img/kantin.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 120px;
+    border-radius: 0 0 15px 15px;
+    position: sticky; /* Mengubah dari fixed menjadi sticky */
+    top: 0; /* Tetap pada posisi atas saat di-scroll */
+    z-index: 1000; /* Pastikan header muncul di atas konten lain */
+    margin-top: -90px;
+  }
+  
+  .logo {
+      margin-left: -60px;
+      background-repeat: no-repeat; 
+  }
+  .icon{
+      font-size: 44px;
+      margin-left: 120px;
+      margin-right: 800px;
+      font-family: "Lalezar", system-ui;
+      color: #293859;
+      margin-top: 13px;
+  }
+  .Admin{
+    margin-top: 15px;
+    font-size: 40px;
+    color: #FFFFFF;
+    font-family: "Lalezar", system-ui;
+}
+
+/* Main content */
+  .content {
+    width: 1080px;
+    height: 600px;
+    margin-left: 159px;
+    border-radius: 8px; 
+    border: 2px solid #DE5D01;
+    margin-bottom: 80px;
+
+  }
+  .description{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin-top: 130px;
+    margin-left: 159px; 
+    margin-bottom: 30px;
+  }
+  .chart-container {
+    width: 600%;
+    margin-top: 20px;
+    max-width: 1000px; /* Sesuaikan lebar sesuai kebutuhan */
+    margin: 20px auto; /* Posisi tengah */
+  }
+
+  #bar-chart {
+      background-color: white; /* Warna latar belakang */
+  }
+  .report-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.report-table th,
+.report-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DE5D01;
+}
+
+.report-table th {
+    background-color: #DE5D01;
+    color: white;
+}
+
+  .print-button {
+    background-color: #DE5D01;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 900px;
+  }
+
+  .print-button:hover {
+      background-color: #b54c00; /* Efek hover */
+  }
+/* Tombol Kiri */
+.left-button {
+    background-color: #DE5D01;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 160px;
+    width: 100px;
+    margin-bottom: 5px;
+}
+
+/* Tombol Kanan */
+.right-button {
+    width: 100px;
+    background-color: #FFFFFF;
+    color: #DE5D01;
+    padding: 5px 10px;
+    border: solid 1px #DE5D01;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.printLP-button {
+  background-color: #DE5D01;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 900px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.printLP-button:hover {
+    background-color: #b54c00; /* Efek hover */
+}
+.kembali-button {
+  position: fixed; /* Mengubah posisi menjadi tetap */
+  bottom: 60px; /* Jarak dari bawah */
+  left: 10px; /* Jarak dari kiri */
+  background-color: #DE5D01;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 999; /* Menentukan lapisan tampilan untuk memastikan tombol muncul di atas konten lain */
+}
+
+.kembali-button:hover {
+  background-color: #0056b3;
+}
+.Input-Laporan{
+  position: fixed; /* Mengubah posisi menjadi tetap */
+  bottom: 60px; /* Jarak dari bawah */
+  left: 120px; /* Jarak dari kiri */
+  background-color: #DE5D01;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 999;
+}
+.kembali-button:hover {
+  background-color: #0056b3;
+}
+  /* footer */
+.footer {
+    background-color: #F6BC13;
+    color: #FFFFFF; /* warna teks diubah menjadi putih */
+    padding: 20px; /* atur padding sesuai kebutuhan */
+    text-align: center; /* teks di tengah */
+    position: fixed; /* tetap pada posisi bawah layar */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* lebar penuh */
+    height: 48px;
+  }
+  .left-icons{
+    size: 10px;
+  }
+  
+  /* Styles for right text */
+  .right-text {
+    font-size: 14px; 
+    margin-left: 520px; 
+    margin-top: -5px; 
+  }
+  
